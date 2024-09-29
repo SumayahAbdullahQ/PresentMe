@@ -14,6 +14,10 @@
 		586389562CA975E5005DD20E /* PresentMeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 586389552CA975E5005DD20E /* PresentMeTests.swift */; };
 		586389602CA975E5005DD20E /* PresentMeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5863895F2CA975E5005DD20E /* PresentMeUITests.swift */; };
 		586389622CA975E5005DD20E /* PresentMeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 586389612CA975E5005DD20E /* PresentMeUITestsLaunchTests.swift */; };
+		5863896F2CA9769F005DD20E /* Maha.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5863896E2CA9769F005DD20E /* Maha.swift */; };
+		586389712CA976B7005DD20E /* Wala.swift in Sources */ = {isa = PBXBuildFile; fileRef = 586389702CA976B7005DD20E /* Wala.swift */; };
+		586389732CA976C9005DD20E /* Sumayah.swift in Sources */ = {isa = PBXBuildFile; fileRef = 586389722CA976C9005DD20E /* Sumayah.swift */; };
+		586389752CA976DF005DD20E /* Alanoud.swift in Sources */ = {isa = PBXBuildFile; fileRef = 586389742CA976DF005DD20E /* Alanoud.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +48,10 @@
 		5863895B2CA975E5005DD20E /* PresentMeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PresentMeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5863895F2CA975E5005DD20E /* PresentMeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentMeUITests.swift; sourceTree = "<group>"; };
 		586389612CA975E5005DD20E /* PresentMeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentMeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5863896E2CA9769F005DD20E /* Maha.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Maha.swift; sourceTree = "<group>"; };
+		586389702CA976B7005DD20E /* Wala.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wala.swift; sourceTree = "<group>"; };
+		586389722CA976C9005DD20E /* Sumayah.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sumayah.swift; sourceTree = "<group>"; };
+		586389742CA976DF005DD20E /* Alanoud.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alanoud.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +104,10 @@
 			children = (
 				586389442CA975E4005DD20E /* PresentMeApp.swift */,
 				586389462CA975E4005DD20E /* ContentView.swift */,
+				5863896E2CA9769F005DD20E /* Maha.swift */,
+				586389702CA976B7005DD20E /* Wala.swift */,
+				586389722CA976C9005DD20E /* Sumayah.swift */,
+				586389742CA976DF005DD20E /* Alanoud.swift */,
 				586389482CA975E5005DD20E /* Assets.xcassets */,
 				5863894A2CA975E5005DD20E /* Preview Content */,
 			);
@@ -257,7 +269,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5863896F2CA9769F005DD20E /* Maha.swift in Sources */,
 				586389472CA975E4005DD20E /* ContentView.swift in Sources */,
+				586389732CA976C9005DD20E /* Sumayah.swift in Sources */,
+				586389712CA976B7005DD20E /* Wala.swift in Sources */,
+				586389752CA976DF005DD20E /* Alanoud.swift in Sources */,
 				586389452CA975E4005DD20E /* PresentMeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
