@@ -14,7 +14,11 @@ struct Wala: View {
         VStack
         {
             
-            
+            Image("Walaa")
+                    .resizable()
+                    .frame(width: 200, height: 200.0)
+                    .cornerRadius(40)
+                    .padding()
             
             Text("Hello, World!")
                 .font(.largeTitle)
