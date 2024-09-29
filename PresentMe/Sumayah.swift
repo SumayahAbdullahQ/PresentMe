@@ -9,7 +9,18 @@ import SwiftUI
 
 struct Sumayah: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack(spacing: 20)
+        {
+            Image(.imgSumayah)
+                .resizable()
+                .frame(width: 200, height: 200)
+                .cornerRadius(40)
+            Text("Sumayah Alqahtani")
+                .font(.title)
+                .foregroundColor(Color.red)
+            Text("I am 33. Now I am sleepy..")
+            
+        }
     }
 }
 
