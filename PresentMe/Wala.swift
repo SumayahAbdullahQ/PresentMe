@@ -29,7 +29,7 @@ struct Wala: View {
             Text("Hi I am walaa")
             Text("I am 24 years old")
             Text("Content creator/writer")
-            
+            Image(.walaa)
         }
         
     }
