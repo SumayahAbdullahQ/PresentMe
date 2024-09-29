@@ -9,7 +9,15 @@ import SwiftUI
 
 struct Alanoud: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack()
+        {
+            Image(.alanoud)
+                .resizable()
+                .scaledToFit()
+                .clipShape(/*@START_MENU_TOKEN@*/Circle()/*@END_MENU_TOKEN@*/)
+               
+        }
+            
     }
 }
 
