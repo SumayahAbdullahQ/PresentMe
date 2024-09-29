@@ -18,7 +18,7 @@ struct Sumayah: View {
             Text("Sumayah Alqahtani")
                 .font(.title)
                 .foregroundColor(Color.red)
-            Text("I am 33. Now I am sleepy.")
+            Text("I am 33. Now I am sleepy..")
             
         }
     }
