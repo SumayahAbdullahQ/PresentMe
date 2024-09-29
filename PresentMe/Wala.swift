@@ -9,9 +9,33 @@ import SwiftUI
 
 struct Wala: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        
+        
+        VStack
+        {
+            
+            Image("Walaa")
+                    .resizable()
+                    .frame(width: 200, height: 200.0)
+                    .cornerRadius(40)
+                    .padding()
+            
+            Text("Hello, World!")
+                .font(.largeTitle)
+                .foregroundColor(Color.pink)
+                .multilineTextAlignment(.leading)
+                .padding()
+            
+            Text("Hi I am walaa")
+            Text("I am 24 years old")
+            Text("Content creator/writer")
+            
+        }
+        
     }
-}
+    }
+
+
 
 #Preview {
     Wala()
