@@ -16,6 +16,9 @@ struct Maha: View {
                 .clipShape(/*@START_MENU_TOKEN@*/Circle()/*@END_MENU_TOKEN@*/)
                 .overlay(Circle().stroke(lineWidth: 4))
             
+            Text("KAUST Academy")
+            
+            
             
         }
     }
